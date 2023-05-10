@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/desing"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Agenda.Vistas.V_Detalle"
+             BackgroundColor="#23476d">
+    <ContentPage.Content>
+        <StackLayout Padding="40" Margin="5" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+            <Label Text="Datos del contacto"
+                   HorizontalOptions="CenterAndExpand"
+                   TextColor="WhiteSmoke"
+                   FontSize="25"
+                   FontAttributes="Bold"/>
+            <Label x:Name="lblMensaje"
+                   HorizontalOptions="Center"
+                   TextColor="WhiteSmoke"
+                   FontSize="20"
+                   FontAttributes="Bold"/>
+            <Entry x:Name="txtNombre"
+                   Placeholder="Nombre"
+                   TextColor="White" 
+                   PlaceholderColor="Gray"/>
+            <Entry x:Name="txtApellidos"
+                   Placeholder="Apellidos"
+                   TextColor="White" 
+                   PlaceholderColor="Gray"/>
+            <Entry x:Name="txtTelefono"
+                   Placeholder="Telefono"
+                   TextColor="White" 
+                   Keyboard="Numeric"
+                   MaxLength="10"
+                   PlaceholderColor="Gray"/>
+            <Button Text="Actualizar"
+                    x:Name="btn_actualizar"
+                    TextColor="White"
+                    BackgroundColor="Transparent"
+                    BorderColor="Black"
+                    BorderWidth="1.5"
+                    CornerRadius="50"/>
+            <Button Text="Eliminar"
+                    x:Name="btn_eliminar"
+                    TextColor="White"
+                    BackgroundColor="Transparent"
+                    BorderColor="Black"
+                    BorderWidth="1.5"
+                    CornerRadius="50"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

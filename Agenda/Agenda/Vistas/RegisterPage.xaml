@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Agenda.Vistas.RegisterPage"
+             BackgroundColor="#1b3d62">
+    <ContentPage.Content>
+        <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+            <Image Source="NotF.png" WidthRequest="180" HeightRequest="180"></Image>
+
+            <Label Text="Ops... Aún estamos trabajando en ello, disculpe las molestias"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" 
+                TextColor="Gray"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
